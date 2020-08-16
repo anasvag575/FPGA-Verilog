@@ -14,11 +14,12 @@ The following tools and manuals were used:
 Each small project has the source code, the UCF file required for the connectivity and the final bitfile of the
 each project.
 
-Projects are split into parts basen on each assignment's requirement of each part.
+Projects are split into parts basen on each assignment's requirement of each part and in each lab
+assignment we have a report of the whole project.
 
 Generally the last part will have the full project.
 
-##LED Driver
+## LED Driver
 The LED Driver was implemented in the Spartan3 FPGA, on the onboard LED Display.
 
 The project was to implement 2 things:
@@ -27,7 +28,7 @@ The project was to implement 2 things:
 
 The seqeunce was a simple "0123456789ABCDEF" message
 
-##UART Implementation
+## UART Implementation
 The UART implementation was only tested in the RTL department without any practical 
 testing on any FPGA.
 
@@ -36,7 +37,7 @@ which have variable BaudRates which we can set ourselves.
 
 We implement also system flags in case of framing errors, parity errors or some other case
 
-##VGA Driver
+## VGA Driver
 The VGA driver was implemented in Spartan3.
 
 It basicaly is an VGA driver for 640x480 resolution.But in our case due to memory limitations
@@ -45,7 +46,7 @@ For now a static image is displayed and no video is produced but this could be e
 
 The data to be diplayed is stored in a chunk of BRAM in Spartan3.
 
-##LCD Driver
+## LCD Driver
 The LCD Driver was implemented in Spartan3e's onboard LCD screen
 
 We initialize, configure and display a message with a cursor on the LCD screen
