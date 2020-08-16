@@ -1,0 +1,19 @@
+NET clk LOC = T9;
+NET an3 LOC = E13;
+NET an2 LOC = F14;
+NET an1 LOC = G14;
+NET an0 LOC = D14;
+
+NET a LOC = E14;
+NET b LOC = G13;
+NET c LOC = N15;
+NET d LOC = P15;
+NET e LOC = R16;
+NET f LOC = F13;
+NET g LOC = N16;
+NET dp LOC = P16;
+NET reset LOC = L14;
+NET add_button LOC = L13;
+
+NET "clk" TNM_NET = "clk";
+TIMESPEC "TS_clk" = PERIOD "clk" 20 ns HIGH 50 %;

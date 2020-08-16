@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Av/Lab04/LCD_driver_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="LCD_driver_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/LCD_driver_tb/LCD_RS" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_RS</obj_property>
+      <obj_property name="ObjectShortName">LCD_RS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/LCD_RW" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_RW</obj_property>
+      <obj_property name="ObjectShortName">LCD_RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/LCD_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_E</obj_property>
+      <obj_property name="ObjectShortName">LCD_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/SF_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SF_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SF_D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">addr_control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/trans_end" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trans_end</obj_property>
+      <obj_property name="ObjectShortName">trans_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/addr_act" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_act</obj_property>
+      <obj_property name="ObjectShortName">addr_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/addr_to_bram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_to_bram[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_to_bram[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/char_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">char_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/addr_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/addr_ddram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_ddram[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ddram[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/addr_bram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_bram[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bram[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/refresh_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">refresh_count[10:0]</obj_property>
+      <obj_property name="ObjectShortName">refresh_count[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/cursor_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cursor_flag</obj_property>
+      <obj_property name="ObjectShortName">cursor_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut4/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider18" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/trans_end" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trans_end</obj_property>
+      <obj_property name="ObjectShortName">trans_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/SF_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SF_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SF_D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/LCD_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_E</obj_property>
+      <obj_property name="ObjectShortName">LCD_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/trans_act" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trans_act</obj_property>
+      <obj_property name="ObjectShortName">trans_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/addr_act" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_act</obj_property>
+      <obj_property name="ObjectShortName">addr_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/op_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/state_op_flag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_op_flag[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_op_flag[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/state_wait_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">state_wait_flag</obj_property>
+      <obj_property name="ObjectShortName">state_wait_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/b_delay_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b_delay_counter[19:0]</obj_property>
+      <obj_property name="ObjectShortName">b_delay_counter[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/s_delay_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_delay_counter[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_delay_counter[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/e_delay_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e_delay_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">e_delay_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LCD_driver_tb/instance_name/dut1/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+</wave_config>
