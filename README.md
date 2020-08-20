@@ -1,10 +1,10 @@
 # FPGA-Verilog
 Projects implemented in Spartan3 and Spartan3e for the Digital Systems class which include:
 
-- LED Driver for Spartan3 FPGA
-- UART implementation
-- VGA Driver
-- LCD driver for Spartan3e FPGA
+- LED Driver for Spartan3 FPGA - Lab01
+- UART implementation - Lab02
+- VGA Driver - Lab03
+- LCD driver for Spartan3e FPGA - Lab04
 
 The following tools and manuals were used: 
 - Xillinx ISE Design Suite 14.7
